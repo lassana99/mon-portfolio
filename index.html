@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mon portfolio</title>  
+    <meta type="description" content="Ceci est mon portfolio professionnel" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/styles.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
+
+</head>
+<body>
+    <header>
+        <div class="boxed">
+            <div class="flex align-center space-between">
+                <button onclick="openMenu()" class="header-menu-mobile">
+                    <span class="material-symbols-outlined">menu</span>
+                </button>
+                <ul class="header-menu">
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#apropos">A propos</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#realisations">Réalisations</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="slider">
+        <img src="img/slider.png" class="slider-background" />
+        <div id="accueil" class="slider-content">
+            <h2 class="welcome-message">Soyez les bienvenus, je serai ravi d'échanger avec vous!</h2>
+            <h1>Je suis Lassana DEMBE</h1>
+            <p><span id="typed-text"></span></p>
+        </div>
+    </div>
+
+    <div id="apropos" class="section">
+        <div class="boxed1">
+            <div class="flex toColumn mCenter">
+                <div class="w40 wm100">
+                    <h2>A propos de moi</h2>
+                    <img src="img/about-me.jpg" alt="A propos de moi" class="about-me-image" />
+                </div>
+                <div class="w60 wm100">
+                    <p>
+                        Je suis Lassana DEMBE, ingénieur en Données et Intelligence Artificielle, diplômé de l'École Supérieure Multinationale des Télécommunications (ESMT Dakar), promotion 2021-2024.
+            
+                        Passionné par la gestion, l’analyse et l’exploitation des données, mon objectif est de concevoir des solutions innovantes pour aider à la prise de décision et optimiser les performances des entreprises. J’utilise des outils comme Power BI, Tableau et Excel avancé, en m’appuyant sur des bases de données SQL et NoSQL.
+            
+                        Par ailleurs, je travaille dans la modélisation et le déploiement de solutions d’Intelligence Artificielle, en exploitant Python et des frameworks tels que TensorFlow, PyTorch, Scikit-learn et les modèles LLM.
+            
+                        En complément, je développe des plateformes et sites web en utilisant Python, API RESTful, HTML/CSS, WordPress, PHP, Angular et Laravel/React.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services" class="section dark">
+        <div class="boxed text-center">
+            <h2>Découvrez mes services</h2>
+            <div class="flex toColumn gap20">
+                <div class="w25 wm100 skill">
+                    <img src="img/bi.jpg" />
+                    <h3>Data & Business Intelligence</h3>
+                    <p>Conception de tableaux de bord interactifs et d'analyses de données pour une prise de décision éclairée.</p>
+                </div>
+                <div class="w25 wm100 skill">
+                    <img src="img/ml.jpg" />
+                    <h3>Machine Learning</h3>
+                    <p>Développement de modèles prédictifs et analytiques pour résoudre des problèmes complexes.</p>
+                </div>
+                <div class="w25 wm100 skill">
+                    <img src="img/dl.jpg" />
+                    <h3>Deep Learning</h3>
+                    <p>Création de réseaux de neurones profonds pour des applications avancées en vision par ordinateur et traitement du langage naturel.</p>
+                </div>
+                <div class="w25 wm100 skill">
+                    <img src="img/ig.jpg" />
+                    <h3>IA Générative</h3>
+                    <p>Conception de modèles génératifs pour créer du contenu innovant, comme des images, des textes ou de la musique.</p>
+                </div>
+                <div class="w25 wm100 skill">
+                    <img src="img/dev.jpg" />
+                    <h3>Développement Web</h3>
+                    <p>Création de sites web et d'applications dynamiques avec des technologies modernes comme HTML, CSS, JavaScript et PHP.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="realisations" class="section">
+        <div class="boxed2 text-center">
+            <h2>Explorer mes réalisations</h2>
+            <div class="flex wrap gap30 space-between">
+    
+                <!-- Projet 1 -->
+                <div class="w32 wm47 realisation">
+                    <div class="image-container">
+                        <img src="img/kafka.png" alt="Projet Kafka">
+                    </div>
+                    <div class="details">
+                        <h3>Usage de Kafka</h3>
+                        <p>Système de suivi des inscriptions en temps réel avec Kafka sur AWS.</p>
+                        <a href="projet1.html" class="details-link">Plus de détails</a>
+                    </div>
+                </div>
+    
+                <!-- Projet 2 -->
+                <div class="w32 wm47 realisation">
+                    <div class="image-container">
+                        <img src="img/dash.jpg" alt="Dashboard">
+                    </div>
+                    <div class="details">
+                        <h3>Dashboard Analytics</h3>
+                        <p>Conception de Tableaux de bord avec Power BI, Tableau et Kibana.</p>
+                        <a href="projet2.html" class="details-link">Plus de détails</a>
+                    </div>
+                </div>
+    
+                <!-- Projet 3 -->
+                <div class="w32 wm47 realisation">
+                    <div class="image-container">
+                        <img src="img/ops.jpg" alt="DataOps">
+                    </div>
+                    <div class="details">
+                        <h3>DataOps Pipeline</h3>
+                        <p>Implémentation du métier de DataOps avec la plateforme Snowflake.</p>
+                        <a href="projet3.html" class="details-link">Plus de détails</a>
+                    </div>
+                </div>
+    
+                <!-- Projet 4 -->
+                <div class="w32 wm47 realisation">
+                    <div class="image-container">
+                        <img src="img/pms.jpg" alt="Gestion de Projets">
+                    </div>
+                    <div class="details">
+                        <h3>Plateforme de Gestion de Projets</h3>
+                        <p>Système de suivi et gestion des projets pour WEST Ingénierie.</p>
+                        <a href="projet4.html" class="details-link">Plus de détails</a>
+                    </div>
+                </div>
+    
+                <!-- Projet 5 -->
+                <div class="w32 wm47 realisation">
+                    <div class="image-container">
+                        <img src="img/survey.jpg" alt="Analyse des sondages">
+                    </div>
+                    <div class="details">
+                        <h3>Gestion des Fichiers de Sondages</h3>
+                        <p>Outil digital de traitement des fichiers de sondages avec IA et API REST.</p>
+                        <a href="projet5.html" class="details-link">Plus de détails</a>
+                    </div>
+                </div>
+    
+                <!-- Projet 6 -->
+                <div class="w32 wm47 realisation">
+                    <div class="image-container">
+                        <img src="img/excel.jpg" alt="Gestion financière">
+                    </div>
+                    <div class="details">
+                        <h3>Gestion Financière</h3>
+                        <p>La mise en place d'un système de gestion financière en utilisant Excel avancé.</p>
+                        <a href="projet6.html" class="details-link">Plus de détails</a>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    
+            <!-- Conteneur pour le texte d'introduction et les contacts -->
+            <div id="contact" class="section dark">
+                <div class="boxed text-center">
+                    <h2>Contactez-moi</h2>
+                    <!-- Conteneur pour le texte d'introduction et les contacts -->
+                    <div class="contact-container">
+                        <p>Pour toute question ou si vous souhaitez discuter d'une collaboration, n'hésitez pas à me contacter. Je serai ravi d'échanger avec vous et d'explorer les opportunités ensemble.</p>
+                        <!-- Carte des contacts -->
+                        <div class="contact-card">
+                            <p><strong>📍</strong> KIPE / Conakry</p>
+                            <p><strong>📧</strong> <a href="mailto:dembelassana@gmail.com">dembelassana@gmail.com</a></p>
+                            <p><strong>📞</strong> <a href="tel:+224610199900">+224 610 19 99 00</a></p>
+                            <p>
+                                <strong><i class="fa-brands fa-linkedin" style="color: #0077b5; font-size: 22px;"></i></strong> 
+                                <a href="https://www.linkedin.com/in/lassana-dembe/" target="_blank">Mon profil</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    
+    <script src="js/app.js"></script> 
+    <footer class="footer">
+        <div class="boxed text-center">
+            <p>&copy; 2025 Lassana DEMBE. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
