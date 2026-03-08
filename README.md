@@ -3,7 +3,7 @@
 ### Ingénieur en Données et Intelligence Artificielle
 Diplômé de l'École Supérieure Multinationale des Télécommunications (ESMT Dakar)
 
-[Consulter le portfolio en ligne](https://lassana99.github.io/mon-portfolio/)
+[Consulter le portfolio en ligne](https://lassanadembe.netlify.app/)
 
 ---
 
