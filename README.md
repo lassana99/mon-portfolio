@@ -1,67 +1,64 @@
-<p align="center">
-  <img src="assets/img/logo.png" width="150" alt="Logo Lassana">
-</p>
+# Portfolio Professionnel - Lassana DEMBE
 
-<h1 align="center">Portfolio Professionnel | Lassana</h1>
+### Ingénieur en Données et Intelligence Artificielle
+Diplômé de l'École Supérieure Multinationale des Télécommunications (ESMT Dakar)
 
-<p align="center">
-    <strong>Développeur Full Stack | Expert PHP & Laravel | Intégrateur d'IA</strong><br>
-    Conception de solutions métier innovantes et performantes.
-</p>
-
-<p align="center">
-  <a href="https://lassana99.github.io/mon-portfolio/"><strong>🌐 Voir le Portfolio en ligne</strong></a>
-</p>
+[Consulter le portfolio en ligne](https://lassana99.github.io/mon-portfolio/)
 
 ---
 
-##  Aperçu du Portfolio
+## Présentation
 
-### Page d'Accueil
-Une interface moderne et épurée présentant mon profil, mes technologies de prédilection et ma vision du développement.
-<p align="center">
-  <img src="assets/img/home.png" width="900" alt="Accueil Portfolio">
-</p>
+Ingénieur spécialisé en Données et Intelligence Artificielle, mon expertise se concentre sur la conception de solutions innovantes pour l'aide à la décision et l'optimisation des performances en entreprise. 
 
-### Vitrine des Projets
-Présentation interactive de mes réalisations avec des fiches détaillées pour chaque solution développée.
-<p align="center">
-  <img src="assets/img/projects.png" width="900" alt="Section Projets">
-</p>
+Mon champ d'action couvre l'ensemble du cycle de la donnée : de l'ingénierie (DataOps, ETL) à l'analyse (Business Intelligence) jusqu'à la modélisation avancée (Machine Learning, Deep Learning et LLM).
 
 ---
 
-## Projets Majeurs Récents
+## Domaines d'Expertise
 
-Voici les trois solutions phares que j'ai développées et déployées :
+**Data & Business Intelligence**
+- Conception de tableaux de bord interactifs (Power BI, Tableau, Excel avancé).
+- Exploitation de bases de données SQL et NoSQL.
 
-| Projet | Description | Technologies | Lien |
-| :--- | :--- | :--- | :--- |
-| **ApprologApp** | **ERP Complet** : Gestion de stock, finance, RH et facturation automatisée. | Laravel, MySQL, Chart.js | [Voir le code](https://github.com/lassana99/ApprologApp) |
-| **WEST_PMS** | **Gestion de Projet + IA** : Chatbot intelligent OpenAI intégré pour West Ingénierie. | PHP Natif, OpenAI API, JS | [Voir le code](https://github.com/lassana99/west-pms-gestion-de-projet) |
-| **Conge_Secto** | **Système RH** : Digitalisation complète des demandes et validations de congés. | PHP Natif, MySQL, Bootstrap | [Voir le code](https://github.com/lassana99/application_de_gestion_des_conges) |
+**Intelligence Artificielle**
+- Développement de modèles prédictifs et analytiques.
+- Modélisation de réseaux de neurones profonds (Vision par ordinateur, NLP).
+- Conception de modèles génératifs et intégration de modèles LLM.
 
----
-
-## Expertise Technique
-
-- **Backend** : PHP 8.2 (Natif & Laravel), Node.js
-- **Frontend** : HTML5, CSS3, JavaScript (ES6), Bootstrap 5, Tailwind CSS
-- **Intelligence Artificielle** : Intégration d'API (OpenAI GPT, Gemini), Chatbots contextuels
-- **Base de données** : MySQL, Modélisation relationnelle (UML/Merise)
-- **DevOps & Outils** : Git/GitHub, Vite.js, Déploiement Cloud, XAMPP
+**Développement Web**
+- Création de plateformes dynamiques et d'API RESTful.
+- Maîtrise de PHP (Laravel), Python, JavaScript (React, Angular) et WordPress.
 
 ---
 
-## Me Contacter
+## Réalisations Principales
 
-Je suis ouvert à de nouvelles opportunités de collaboration sur des projets stimulants.
+| Projet | Description | Technologies |
+| :--- | :--- | :--- |
+| **Suivi Kafka Temps Réel** | Système de suivi des inscriptions déployé sur AWS. | Kafka, AWS, Python |
+| **WEST_PMS** | Plateforme de gestion de projets avec Chatbot IA intégré. | PHP, OpenAI API, MySQL |
+| **Pipeline DataOps** | Implémentation de flux de données automatisés. | Snowflake, SQL |
+| **Dashboard Analytics** | Tableaux de bord décisionnels pour l'analyse de données. | Power BI, Tableau, Kibana |
+| **Gestion de Sondages** | Outil de traitement de fichiers de sondages via API. | Python, API REST, AI |
+| **Gestion Financière** | Système de gestion financière automatisé. | Excel Avancé, VBA |
 
-- **LinkedIn** : [Votre Nom sur LinkedIn](https://www.linkedin.com/in/votre-profil)
-- **GitHub** : [@lassana99](https://github.com/lassana99)
-- **Email** : [votre.email@exemple.com](mailto:votre.email@exemple.com)
+---
 
-<p align="center">
-  <em>Propulsé par la passion du code et l'innovation constante.</em><br>
-  © 2024 - Lassana
-</p>
+## Stack Technique
+
+- **Langages** : Python, PHP, JavaScript, SQL.
+- **Frameworks IA** : TensorFlow, PyTorch, Scikit-learn.
+- **Frameworks Web** : Laravel, React, Angular.
+- **Outils BI** : Power BI, Tableau, Kibana, Excel.
+- **Infrastructure** : AWS, Snowflake, Kafka.
+
+---
+
+## Installation locale
+
+Le portfolio est un site statique hébergé via GitHub Pages.
+
+1. **Clonage du dépôt** :
+   ```bash
+   git clone https://github.com/lassana99/mon-portfolio.git
